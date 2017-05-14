@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    /*padding: 0;*/
+}
+html, body {
+    height: 100%;}
+
+.page_wrapper {
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    background: grey;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Left {
+    padding-top: 300px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    width: 20%;
+    align-items: stretch;
+    background-image: url("img/shade_for_project.jpg");
+    background-size: cover;
+    }
+
+.Center {
+    width: 70%;
+    display: flex;
+    padding: 0;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    .Top {
+     /*height: 20%;*/
+     background: white;
+     align-items: left;
+     padding-bottom: 70px;
+     padding-top: 30px;
+ }
+    .Top p {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: fantasy;
+        color: lightsteelblue;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .Middle {
+    /*height: 55%;*/
+    padding: 10px;
+    background-image: url("img/shade_for_project.jpg");
+    background-size: cover;
+    align-items: left;
+    font-size: 40px;
+    font-family: fantasy;
+    color: white;
+}
+    .Bottom {
+    height: 25%;
+    background: white;
+    align-items: left;
+}
+.Right {
+    width: 10%;
+    align-items: stretch;
+    background: white;
+}
+i {size: 50px;
+   color: white;
+  }
+i:hover {
+    color: lightsteelblue;
+}
+
+a.menu,
+.page
+  {color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: fantasy;
+
+}
+
+li,
+.menu:hover {
+    color: lightsteelblue;
+}
+
+
+ul
+    {text-align: center;
+    line-height: 3;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* Summary
+ */
+.summary,
+.experience {
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    background: grey;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.page {
+    color: lightsteelblue;
+}
+/* Experience
+
+ */
+
+.WLeft,
+.SLeft {
+    padding-top: 300px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    width: 20%;
+    align-items: stretch;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7c7dc+0,85b2d3+100&1+0,0.6+42,0.3+96 */
+    background: -moz-linear-gradient(45deg, rgba(167, 199, 220, 1) 0%, rgba(153, 190, 216, 0.6) 42%, rgba(134, 179, 211, 0.3) 96%, rgba(133, 178, 211, 0.3) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(167, 199, 220, 1) 0%, rgba(153, 190, 216, 0.6) 42%, rgba(134, 179, 211, 0.3) 96%, rgba(133, 178, 211, 0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(167, 199, 220, 1) 0%, rgba(153, 190, 216, 0.6) 42%, rgba(134, 179, 211, 0.3) 96%, rgba(133, 178, 211, 0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a7c7dc', endColorstr='#4d85b2d3', GradientType=1); /* IE6-9 fallback on horizontal gradient */;
+    background-size: cover;
+}
+.SLeft img {
+    border-radius: 30px;}
+
+.WRight,
+.SRight {
+    padding: 100px 50px 100px 10px;
+    width: 80%;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+
+}
+.WTop {
+
+    font: normal 18px fantasy;
+    color: lightsteelblue;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+    background: white;
+    text-align: left;
+    border-bottom: solid lightsteelblue 6px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top:30px;
+    width: 100%
+}
+.WTop a {
+    color: lightsteelblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: fantasy;
+    text-align: justify;
+}
+
+
+.One,
+.Two,
+.Three,
+.Four,
+.Five,
+.Six{
+    /*height:15%;*/
+    padding-bottom:10px;
+    margin-bottom: 10px;
+    background: white;
+    font-family: arial sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    border: solid lightsteelblue 3px;
+    flex-grow: 1;
+}
+.One,
+.Two,
+.Three,
+.Four,
+.Five,
+.Six,
+ul,
+li
+{
+    font-family: arial sans-serif;;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    line-height: 2;
+    text-decoration: none;
+}
+
+.SRight {
+    padding-top: 50px;
+    padding-bottom: 0;
+    align-content: space-around;
+}
+.SOne {
+    height: 35%;
+    padding: 10px 70px 10px 50px;
+    margin-bottom: 10px;
+    background: white;
+    box-shadow: lightsteelblue;
+    font:normal 20px/2 fantasy;
+    color: grey;
+    border: solid 3px lightsteelblue;
+    }
+.SOne:hover {
+    transform: translate(30px,30px) scale(1,1) ;
+
+}
+.STwo {
+    padding-left: 50px;
+    height: 65%;
+    background: white;
+    margin-bottom: 10px;
+    box-shadow: lightsteelblue;
+    font: normal 18px/2 Serif;
+    color: grey;
+    border: solid 3px lightsteelblue;
+}
+.STwo:hover {
+    transform: translate(30px,-30px) scale(1,1) ;
+
+}
+.STwo ul {
+    display: list-item;
+    font:normal 18px/2 Serif;
+    text-align: left;
+    }
+
+.fa.fa-chevron-left {
+    font-size: 150px;
+}
+
